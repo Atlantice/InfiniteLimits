@@ -628,6 +628,12 @@ iframe{
 }
 /* Link colour styles */
 
+.ltc-purple-heart{
+	color:#531EA3!important;
+}
+.ltc-purple-heart:hover{
+	color:#421882!important;
+}
 .ltc-white{
 	color:#FFFFFF!important;
 }
@@ -636,6 +642,10 @@ iframe{
 }
 /* Icon colour styles */
 
+.icon-white{
+	color:#FFFFFF!important;
+	border-color:#FFFFFF!important;
+}
 .icon-turquoise{
 	color:#32ECE7!important;
 	border-color:#32ECE7!important;
@@ -646,6 +656,9 @@ iframe{
 }.bg-golden-gate-overlay{
 	background-image:url("img/golden-gate-overlay.png");
 }
+.bg-golden-gate-overlay{
+	background-image:url("img/golden-gate-overlay.png");
+}
 .bg-Wall-Sketching{
 	background-image:url("img/Wall-Sketching.jpg");
 }
@@ -668,10 +681,13 @@ iframe{
 	background-image:url("img/golden-gate-overlay.png");
 }
 .bg-golden-gate-overlay{
-	background-image:url('img/golden-gate-overlay.png');
+	background-image:url("img/golden-gate-overlay.png");
 }
 .bg-map-overlay{
-	background-image:url('img/map-overlay.png');
+	background-image:url("img/map-overlay.png");
+}
+.bg-cornfield{
+	background-image:url("img/cornfield.jpg");
 }
 
 
