@@ -7,22 +7,20 @@
     <link rel="shortcut icon" type="image/png" href="favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
     
-	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" href="./css/animate.min.css" />
-	<script src="./js/jquery-2.1.0.min.js"></script>
-	<script src="./js/bootstrap.min.js"></script>
-	<script src="./js/blocs.min.js"></script><link rel='stylesheet' href='./css/font-awesome.min.css'/><link rel='stylesheet' href='./css/ionicons.min.css'/><link rel='stylesheet' href='./css/et-line.min.css'/><link href='https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-<link href='https://fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="./css/animate.css" />
+	<script src="./js/jquery-2.1.0.js"></script>
+	<script src="./js/bootstrap.js"></script>
+	<script src="./js/blocs.js"></script><link rel='stylesheet' href='./css/font-awesome.min.css'/><link rel='stylesheet' href='./css/ionicons.min.css'/><link rel='stylesheet' href='./css/et-line.min.css'/><link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
     
     <title></title>
 </head>
 <body>
 <!-- Main container -->
 <div class="page-container">
-    
-<!-- Hero Bloc -->
-<div id="hero-bloc" class="bloc hero b-parallax bgc-turquoise">
+    <!-- Hero Bloc --><div id="hero-bloc" class="bloc hero b-parallax bgc-turquoise">
 	<div class="video-bg-contianer">
 		<video class="bloc-video" preload="auto" loop="loop" autoplay="autoplay">
 			<source src="vid/whiteBoard.mp4" type="video/mp4" />
@@ -42,13 +40,16 @@
 						<a href="index.html" class="ltc-white" title="hi">Home</a>
 					</li>
 					<li>
-						<a class="ltc-white" href="about.html">About</a>
+						<a class="ltc-white" href="home.html">About</a>
 					</li>
 					<li>
-						<a class="ltc-white" href="services.html">Services</a>
+						<a class="ltc-white" href="subjects.html">Subjects</a>
 					</li>
 					<li>
 						<a class="ltc-white" href="who-we-are.html">Who We Are</a>
+					</li>
+					<li>
+						<a class="ltc-white" href="contact-us.html">Contact Us</a>
 					</li>
 				</ul>
 			</div>
@@ -64,16 +65,12 @@
 					Learning without Limits
 				</h3>
 				<div class="text-center">
-					<a href="https://infinitelimits.acuityscheduling.com/schedule.php" data-placement="bottom" data-toggle="tooltip" title="Set Up An Appointment" class="btn btn-xl btn-rd btn-purple-heart btn-d animDelay04 zoomIn animated" target="_blank"><span class="fa fa-calendar-o icon-spacer icon-md pull-right"></span>Get Started!</a>
+					<a href="https://infinitelimits.acuityscheduling.com/schedule.php" data-placement="bottom" data-toggle="tooltip" title="Set Up An Appointment" class="btn btn-xl btn-rd btn-purple-heart btn-d animDelay04 zoomIn animated" target="_blank"><span class="fa fa-calendar-o icon-spacer icon-md pull-right"></span>Schedule Now!</a>
 				</div>
 			</div>
 		</div><a id="scroll-hero" class="btn-dwn" onclick="scrollToTarget('#bloc-2')"><span class="ion ion-chevron-down icon-228 icon-white"></span></a>
 	</div>
-</div>
-<!-- Hero Bloc END -->
-
-<!-- bloc-2 -->
-<div class="bloc b-parallax bgc-purple-heart bg-map-overlay d-bloc" id="bloc-2">
+</div><!-- Hero Bloc END --><!-- bloc-2 --><div class="bloc b-parallax bgc-purple-heart bg-map-overlay d-bloc" id="bloc-2">
 	<div class="container bloc-md">
 		<div class="row">
 			<div class="col-sm-12">
@@ -82,9 +79,9 @@
 				</h3>
 				<div id="carousel-3" class="carousel no-shadows slide" data-ride="carousel">
 					<ol class="carousel-indicators">
-						<li data-target="#carousel-3" data-slide-to="0">
+						<li data-target="#carousel-3" data-slide-to="0" class="active">
 						</li>
-						<li data-target="#carousel-3" data-slide-to="1" class="active">
+						<li data-target="#carousel-3" data-slide-to="1">
 						</li>
 						<li data-target="#carousel-3" data-slide-to="2">
 						</li>
@@ -92,12 +89,12 @@
 						</li>
 					</ol>
 					<div class="carousel-inner">
-						<div class="item">
+						<div class="item active">
 							<img src="img/slide1.jpg" class="center-block" />
 							<div class="carousel-caption">
 							</div>
 						</div>
-						<div class="item active">
+						<div class="item">
 							<img src="img/slide2.jpg" class="center-block" />
 							<div class="carousel-caption">
 							</div>
@@ -120,14 +117,7 @@
 			</div>
 		</div>
 	</div>
-</div>
-<!-- bloc-2 END -->
-
-<!-- Bloc Group -->
-<div class='bloc-group'>
-
-<!-- bloc-3 -->
-<div class="bloc bloc-tile-3 b-parallax bgc-white animDelay06 bg-map-overlay d-bloc" id="bloc-3">
+</div><!-- bloc-2 END --><!-- Bloc Group --><div class='bloc-group'><!-- bloc-3 --><div class="bloc bloc-tile-3 b-parallax bgc-white animDelay06 bg-map-overlay d-bloc" id="bloc-3">
 	<div class="container bloc-sm">
 		<div class="row">
 			<div class="col-sm-12">
@@ -143,11 +133,7 @@
 			</div>
 		</div>
 	</div>
-</div>
-<!-- bloc-3 END -->
-
-<!-- bloc-4 -->
-<div class="bloc bloc-tile-3 b-parallax bgc-outer-space bg-map-overlay d-bloc" id="bloc-4">
+</div><!-- bloc-3 END --><!-- bloc-4 --><div class="bloc bloc-tile-3 b-parallax bgc-outer-space bg-map-overlay d-bloc" id="bloc-4">
 	<div class="container bloc-sm">
 		<div class="row">
 			<div class="col-sm-12">
@@ -163,11 +149,7 @@
 			</div>
 		</div>
 	</div>
-</div>
-<!-- bloc-4 END -->
-
-<!-- bloc-5 -->
-<div class="bloc bloc-tile-3 b-parallax bgc-turquoise bg-map-overlay d-bloc" id="bloc-5">
+</div><!-- bloc-4 END --><!-- bloc-5 --><div class="bloc bloc-tile-3 b-parallax bgc-turquoise bg-map-overlay d-bloc" id="bloc-5">
 	<div class="container bloc-sm">
 		<div class="row">
 			<div class="col-sm-12">
@@ -183,18 +165,7 @@
 			</div>
 		</div>
 	</div>
-</div>
-<!-- bloc-5 END -->
-</div>
-<!-- Bloc Group END -->
-
-<!-- ScrollToTop Button -->
-<a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a>
-<!-- ScrollToTop Button END-->
-
-
-<!-- Footer - bloc-9 -->
-<div class="bloc bgc-purple-heart b-parallax bg-map-overlay d-bloc" id="bloc-9">
+</div><!-- bloc-5 END --></div><!-- Bloc Group END --><!-- ScrollToTop Button --><a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a><!-- ScrollToTop Button END--><!-- Footer - bloc-11 --><div class="bloc bgc-purple-heart b-parallax bg-map-overlay d-bloc" id="bloc-11">
 	<div class="container bloc-lg">
 		<div class="row voffset">
 			<div class="col-sm-12 col-md-6 col-md-offset-3">
@@ -213,8 +184,7 @@
 			</div>
 		</div>
 	</div>
-</div>
-<!-- Footer - bloc-9 END -->
+</div><!-- Footer - bloc-11 END -->
 </div>
 <!-- Main container END -->
 

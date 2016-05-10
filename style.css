@@ -279,6 +279,21 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 #bloc-6 p{
 	font-size: 16px;
 }
+#bloc-7 h3{
+	font-size: 28px;
+}
+#bloc-7 p{
+	font-size: 18px;
+}
+#bloc-8 p{
+	font-size: 16px;
+}
+#bloc-10 h3{
+	font-size: 28px;
+}
+#bloc-10 p{
+	font-size: 22px;
+}
 
 /* = NavBar
 -------------------------------------------------------------- */
@@ -537,6 +552,13 @@ button{
 }
 
 
+/* = Forms
+-------------------------------------------------------------- */
+
+.form-control{
+	border-color:rgba(0,0,0,.1);
+	box-shadow:none;
+}
 
 /* iFrame */
 
@@ -616,6 +638,9 @@ iframe{
 .tc-turquoise{
 	color:#32ECE7!important;
 }
+.tc-yellow-ryb{
+	color:#F2F435!important;
+}
 /* Button colour styles */
 
 .btn-purple-heart{
@@ -625,6 +650,14 @@ iframe{
 .btn-purple-heart:hover{
 	background:#421882;
 	color:#FFFFFF!important;
+}
+.btn-yellow-ryb{
+	background:#F2F435;
+	color:rgba(0,0,0,.5)!important;
+}
+.btn-yellow-ryb:hover{
+	background:#c2c32a;
+	color:rgba(0,0,0,.5)!important;
 }
 /* Link colour styles */
 
@@ -687,7 +720,16 @@ iframe{
 	background-image:url("img/cornfield.jpg");
 }
 .bg-map-overlay{
+	background-image:url("img/map-overlay.png");
+}
+.bg-map-overlay{
 	background-image:url('img/map-overlay.png');
+}
+.bg-citysky-overlay{
+	background-image:url('img/citysky-overlay.png');
+}
+.bg-cornfield{
+	background-image:url('img/cornfield.jpg');
 }
 
 
