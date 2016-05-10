@@ -656,9 +656,6 @@ iframe{
 }.bg-golden-gate-overlay{
 	background-image:url("img/golden-gate-overlay.png");
 }
-.bg-golden-gate-overlay{
-	background-image:url("img/golden-gate-overlay.png");
-}
 .bg-Wall-Sketching{
 	background-image:url("img/Wall-Sketching.jpg");
 }
@@ -688,6 +685,9 @@ iframe{
 }
 .bg-cornfield{
 	background-image:url("img/cornfield.jpg");
+}
+.bg-map-overlay{
+	background-image:url('img/map-overlay.png');
 }
 
 
