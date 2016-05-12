@@ -29,9 +29,7 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 /* Site container width */
 
 .container{
-	width:100%;
-	padding-left:15px;
-	padding-right:15px;
+	max-width:1170px;
 }
 
 /* = Blocs
@@ -56,6 +54,9 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 
 /* Sizes */
 
+.bloc-xxl{
+	padding:200px 50px;
+}
 .bloc-lg{
 	padding:100px 50px;
 }
@@ -234,9 +235,9 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 /* Bloc text custom styling */
 
 #hero-bloc h1{
-	font-size: 50px;
 	font-weight: 900;
 	font-family: Lobster;
+	font-size: 54px;
 }
 #hero-bloc h3{
 	font-size: 30px;
@@ -288,11 +289,55 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 #bloc-8 p{
 	font-size: 16px;
 }
-#bloc-10 h3{
+#bloc-9 p{
+	font-size: 20px;
+}
+#matt h3{
+	font-family: Lato;
+	font-weight: 400;
+	font-size: 44px;
+}
+#matt h4{
 	font-size: 28px;
 }
-#bloc-10 p{
+#matt p{
+	font-size: 18px;
+}
+#katie h3{
+	font-size: 32px;
+}
+#katie h4{
+	font-size: 26px;
+}
+#katie p{
+	font-size: 18px;
+}
+#brittany h3{
+	font-size: 32px;
+}
+#brittany h4{
+	font-size: 26px;
+}
+#brittany p{
+	font-size: 18px;
+}
+#amy h3{
+	font-size: 32px;
+}
+#amy h4{
+	font-size: 26px;
+}
+#amy p{
+	font-size: 18px;
+}
+#bloc-15 h3{
+	font-size: 28px;
+}
+#bloc-15 p{
 	font-size: 22px;
+}
+#bloc-17 h6{
+	font-size: 14px;
 }
 
 /* = NavBar
@@ -433,10 +478,6 @@ nav .caret{
 .hero .btn-dwn:hover{
 	color: rgba(255,255,255,1);
 }
-.hero .hero-nav{
-	padding-left:inherit;
-	padding-right:inherit;
-}
 /* = Sticky Nav
 -------------------------------------------------------------- */
 
@@ -460,6 +501,9 @@ nav .caret{
 /* = Bric adjustment margins
 -------------------------------------------------------------- */
 
+.mg-clear{
+	margin:0;
+}
 .mg-sm{
 	margin-top:10px;
 	margin-bottom:5px;
@@ -525,16 +569,6 @@ button{
 	font-size:60px!important;
 }
 
-/*  Rounded Image */
-.img-rd{
-	border-radius:6px;
-}
-.img-rd-md{
-	border-radius:20px;
-}
-.img-rd-lg{
-	border-radius:34px;
-}
 
 
 
@@ -560,6 +594,19 @@ button{
 	box-shadow:none;
 }
 
+/* Empty space fillers - Used on empty blocs to fill them out */
+
+.empty-column,.empty-column.thin{
+	width:100%;
+	height:350px;
+	display:inline-block;
+}
+.empty-column{
+	height:350px;
+}
+.empty-column.thin{
+	height:150px;
+}
 /* iFrame */
 
 iframe{
@@ -641,7 +688,9 @@ iframe{
 .tc-yellow-ryb{
 	color:#F2F435!important;
 }
-/* Button colour styles */
+.tc-outer-space{
+	color:#47454B!important;
+	!important}/* Button colour styles */
 
 .btn-purple-heart{
 	background:#531EA3;
@@ -716,6 +765,12 @@ iframe{
 .bg-map-overlay{
 	background-image:url("img/map-overlay.png");
 }
+.bg-map-overlay{
+	background-image:url("img/map-overlay.png");
+}
+.bg-map-overlay{
+	background-image:url("img/map-overlay.png");
+}
 .bg-cornfield{
 	background-image:url("img/cornfield.jpg");
 }
@@ -724,6 +779,9 @@ iframe{
 }
 .bg-map-overlay{
 	background-image:url('img/map-overlay.png');
+}
+.bg-matt01{
+	background-image:url('img/matt01.jpg');
 }
 .bg-citysky-overlay{
 	background-image:url('img/citysky-overlay.png');

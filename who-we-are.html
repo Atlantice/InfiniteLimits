@@ -21,12 +21,12 @@
 <!-- Main container -->
 <div class="page-container">
     <!-- Navigation Bloc --><div id="b-nav" class="bloc-container">
-	<div id="bloc-nav" class="d-mode d-mode-active">
+	<div id="bloc-nav">
 		<div class="bloc sticky-nav bgc-turquoise b-parallax l-bloc bg-repeat" id="nav-bloc">
-			<div class="container bloc-sm">
+			<div class="container">
 				<nav class="navbar row">
 					<div class="navbar-header">
-						<a class="navbar-brand" href="index.html"><img src="img/iltbeta.png" alt="logo" width="133" /></a>
+						<a class="navbar-brand" href="index.html"><img src="img/ilt.png" alt="logo" width="85" /></a>
 						<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
 							<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 						</button>
@@ -34,7 +34,7 @@
 					<div class="collapse navbar-collapse navbar-1">
 						<ul class="site-navigation nav navbar-nav">
 							<li class="active">
-								<a class="ltc-purple-heart" href="index.html">Home</a>
+								<a href="index.html" class="ltc-purple-heart">Home</a>
 							</li>
 							<li>
 								<a class="ltc-purple-heart" href="about.html">About</a>
@@ -46,7 +46,7 @@
 								<a class="ltc-purple-heart" href="who-we-are.html">Who We Are</a>
 							</li>
 							<li>
-								<a class="ltc-purple-heart" href="contact-us.html">Contact Us</a>
+								<a href="contact-us.html" class="ltc-purple-heart">Contact Us</a>
 							</li>
 						</ul>
 					</div>
@@ -61,70 +61,161 @@
 				<h2 class="text-center mg-md tc-turquoise">
 					Meet Our Tutors
 				</h2>
-				<p class="sub-heading text-center">
+				<p class="sub-heading text-center ">
 					We are a group of skilled individuals.
 				</p>
 			</div>
 		</div>
 		<div class="row voffset-lg">
 			<div class="col-sm-3">
-				<a onclick="scrollToTarget(2)"><img src="img/logoMatt.jpg" class="img-responsive img-circle center-block" /></a>
+				<a onclick="scrollToTarget('#matt')"><img src="img/logoMatt.jpg" class="img-responsive img-circle center-block" /></a>
 				<h3 class="text-center mg-md tc-turquoise">
 					Matt McCall
 				</h3>
-				<p class="text-center">
+				<p class="text-center ">
 					Tutor/Founder
 				</p>
 			</div>
 			<div class="col-sm-3">
-				<img src="img/logoMatt.jpg" class="img-responsive img-circle center-block" />
+				<a onclick="scrollToTarget('#katie')"><img src="img/logoKatie.jpg" class="img-responsive img-circle center-block" /></a>
 				<h3 class="text-center mg-md tc-turquoise">
-					John Doe
+					Katie Solano
 				</h3>
-				<p class="text-center">
+				<p class="text-center ">
 					Tutor
 				</p>
 			</div>
 			<div class="col-sm-3">
-				<img src="img/logoMatt.jpg" class="img-responsive img-circle center-block" />
+				<a onclick="scrollToTarget('#brittany')"><img src="img/logoBrittany.jpg" class="img-responsive img-circle center-block" /></a>
 				<h3 class="text-center mg-md tc-turquoise">
-					John Doe
+					Brittany Lewis
 				</h3>
-				<p class="text-center">
+				<p class="text-center ">
 					Tutor
 				</p>
 			</div>
 			<div class="col-sm-3">
-				<img src="img/logoMatt.jpg" class="img-responsive img-circle center-block" />
+				<a onclick="scrollToTarget('#amy')"><img src="img/logoAmy.jpg" class="img-responsive img-circle center-block" /></a>
 				<h3 class="text-center mg-md tc-turquoise">
-					John Doe
+					Amy Gibson
 				</h3>
-				<p class="text-center">
+				<p class="text-center ">
 					Tutor
 				</p>
 			</div>
 		</div>
 	</div>
-</div><!-- bloc-9 END --><!-- ScrollToTop Button --><a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a><!-- ScrollToTop Button END--><!-- Footer - bloc-11 --><div class="bloc bgc-purple-heart b-parallax bg-map-overlay d-bloc" id="bloc-11">
+</div><!-- bloc-9 END --><!-- Bloc Group --><div class='bloc-group'><!-- matt --><div class="bloc bloc-tile-2 bgc-white l-bloc tc-outer-space" id="matt">
+	<div class="container bloc-xxl">
+		<div class="row">
+			<div class="col-sm-12">
+				<h3 class="mg-clear tc-turquoise ">
+					Matt McCall
+				</h3>
+				<h4 class="mg-md tc-purple-heart ">
+					Founder and Tutor
+				</h4>
+				<p class="text-justify ">
+					Matt is a Pre-Engineering graduate at Coastal Carolina Community College in Jacksonville, NC. He has also worked part time as student-faculty as a Peer Assisted Study Session leader for Conceptual Physics. He was born and raised in Miami, Fl., joined the Marines at 19 years old, and deployed to Afghanistan in 2011. He was honourably discharged in January 2013 after serving 5 years to return to college. He has 4 brothers and 3 sisters, and he co-owns a small family plumbing company in Miami with his dad, Jim. Matt enjoys exercising, playing sports and Chess, working on computers, helping others with math and science, and volunteering with Special Needs Baseball programs in New Bern NC., and Jacksonville, NC. Matt holds an Associates in Science, and an Associates in Pre Engineering from Coastal Carolina Community College, where he is a school certified tutor.
+				</p>
+			</div>
+		</div>
+	</div>
+</div><!-- matt END --><!-- bloc-11 --><div class="bloc bloc-tile-2 bgc-white bg-matt01 d-bloc b-parallax" id="bloc-11">
+	<div class="container bloc-xxl">
+		<div class="row">
+			<div class="col-sm-12">
+				<span class="empty-column"></span>
+			</div>
+		</div>
+	</div>
+</div><!-- bloc-11 END --></div><!-- Bloc Group END --><!-- katie --><div class="bloc bg-map-overlay bgc-purple-heart d-bloc b-parallax" id="katie">
 	<div class="container bloc-lg">
-		<div class="row voffset">
+		<div class="row">
+			<div class="col-sm-5">
+				<img src="img/logoKatie.jpg" class="img-responsive" width="311" />
+			</div>
+			<div class="col-sm-7">
+				<h3 class="mg-clear ">
+					Katie Solano
+				</h3>
+				<h4 class="mg-md tc-turquoise ">
+					Tutor
+				</h4>
+				<p class="text-justify ">
+					Katie graduated from a large high school in south-eastern Michigan in 2006. After attending the local community college full-time and working multiple part-time jobs. Katie served as a combat correspondent, reporting stories via the written press, and photography and video journalism. She was editor of the Camp Lejeune Globe after returning from Afghanistan in 2012. Upon completion of her 4-year contract, she decided to stay in Jacksonville for a number of personal and professional reasons. Katie has been enrolled at Coastal Carolina Community College in an Associate of Science degree program for 4 semesters. She will graduate in Spring 2016 and pursue a Nursing degree. Her favorite subjects are English and literature; however she also has a great love for science and math. Prior to joining the Marine Corps, she was a certified nursing aid specializing in hospice and alzheimers care. She is an active member of the Marine Corps League in Swansboro which helps raise awareness for various veteran and dependent issues. She is also extensively involved with private study groups at school, promoting educational awareness and ambition. Though she continues to work part-time, her primary goal is to further her education and the knowledge of those around her, especially her peers and local youth.
+				</p>
+			</div>
+		</div>
+	</div>
+</div><!-- katie END --><!-- brittany --><div class="bloc bg-map-overlay b-parallax bgc-outer-space d-bloc" id="brittany">
+	<div class="container bloc-lg">
+		<div class="row">
+			<div class="col-sm-5">
+				<img src="img/logoBrittany.jpg" class="img-responsive" width="311" />
+			</div>
+			<div class="col-sm-7">
+				<h3 class="mg-clear ">
+					Brittany Lewis
+				</h3>
+				<h4 class="mg-md tc-turquoise ">
+					Tutor
+				</h4>
+				<p class="text-justify ">
+					Brittany Lewis finds no greater fulfillment than when she is serving others and she has devoted her life to doing so. In High School, she volunteered at a nursing home five days a week, helping to care for elderly nuns. She also did volunteer work at a daycare for low-income families. After this she worked for SMOC and then the YMCA as a Preschool Teacher. She began taking college courses at night, while still in High School and working during the day. She became Lead Teacher certified for birth-Pre-K within just one year of working in the field. She then worked diligently to earn her Associate's Degree in Elementary Education. She has assisted in teaching Children's Sunday School classes, as well as teaching some of her own. Brittany has been married for almost seven years and has two small children. She greatly enjoys reading, gardening and swimming.
+				</p>
+			</div>
+		</div>
+	</div>
+</div><!-- brittany END --><!-- amy --><div class="bloc bg-map-overlay b-parallax bgc-purple-heart d-bloc" id="amy">
+	<div class="container bloc-lg">
+		<div class="row">
+			<div class="col-sm-5">
+				<img src="img/logoAmy.jpg" class="img-responsive" width="311" />
+			</div>
+			<div class="col-sm-7">
+				<h3 class="mg-clear ">
+					Amy Gibson
+				</h3>
+				<h4 class="mg-md tc-turquoise ">
+					Tutor
+				</h4>
+				<p class="text-justify ">
+					Amy graduated from a private Christian school in 2001. There were a little over 100 students in her graduating class. She went on to study both Journalism and Political Science at Colorado State University for several years before taking a break from academics to work full-time as a general manager for Starbucks Coffee Company. Nearly 5 years later Amy started a family and ended up in Jacksonville, NC with her two children and husband who is a Marine Corps Veteran. She now aspires to become an elementary school educator and is nearly finished with the prerequisites to be admitted into the UNCW Watson School of Education. Amy has a diverse array of subjects she is interested in, but enjoys any class where she is writing or learning to work with others, specifically students. She knows what it is to balance a family, school and work life. "Throughout my education I have learned that the single most valuable tool I have is to ask for help." She takes advantage of online classes and many other on campus resources and programs where she currently attends school at Coastal Carolina Community College.
+				</p>
+			</div>
+		</div>
+	</div>
+</div><!-- amy END --><!-- ScrollToTop Button --><a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a><!-- ScrollToTop Button END--><!-- Footer - bloc-16 --><div class="bloc bgc-purple-heart b-parallax bg-map-overlay d-bloc" id="bloc-16">
+	<div class="container bloc-md">
+		<div class="row">
 			<div class="col-sm-12 col-md-6 col-md-offset-3">
 				<div class="col-xs-3 text-center">
-					<a class="social" href="#"><span class="fa fa-twitter icon-md icon-turquoise"></span></a>
+					<a class="social" href="https://www.linkedin.com/company/7953391?trk=prof-exp-company-name" target="_blank"><span class="ion ion-social-linkedin icon-md icon-turquoise fadeInUp animated"></span></a>
 				</div>
 				<div class="col-xs-3 text-center">
-					<a class="social" href="https://www.facebook.com/infinitelimitstutoring" target="_blank"><span class="fa fa-facebook icon-md icon-turquoise bounceIn animated"></span></a>
+					<a class="social" href="https://www.facebook.com/infinitelimitstutoring" target="_blank"><span class="fa fa-facebook icon-md icon-turquoise fadeInUp animDelay02 animated"></span></a>
 				</div>
 				<div class="col-xs-3 text-center">
-					<a class="social" href="#"><span class="fa fa-youtube-play icon-md icon-turquoise"></span></a>
+					<a class="social" href="#"><span class="fa fa-youtube-play icon-md icon-turquoise fadeInUp animDelay04 animated"></span></a>
 				</div>
 				<div class="col-xs-3 text-center">
-					<a class="social" href="#"><span class="fa fa-instagram icon-md icon-turquoise"></span></a>
+					<a class="social" href="https://www.instagram.com/infinite_limits_tutoring/" target="_blank"><span class="fa fa-instagram icon-md icon-turquoise fadeInUp animDelay06 animated"></span></a>
 				</div>
 			</div>
 		</div>
 	</div>
-</div><!-- Footer - bloc-11 END -->
+</div><!-- Footer - bloc-16 END --><!-- Footer - bloc-17 --><div class="bloc bg-map-overlay bgc-purple-heart b-parallax" id="bloc-17">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12">
+				<h6 class="mg-md text-center tc-white ">
+					© 2016 Infinite Limits, LLC. All rights reserved.<br /><a href="index.html"></a><a href="index.html"></a><br /><a class="ltc-turquoise" href="https://www.linkedin.com/pub/magus-pereira/a8/376/30b" target="_blank">Designed with awesomeness by Magus Pereira</a>
+				</h6>
+			</div>
+		</div>
+	</div>
+</div><!-- Footer - bloc-17 END -->
 </div>
 <!-- Main container END -->
 
