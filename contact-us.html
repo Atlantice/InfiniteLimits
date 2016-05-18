@@ -14,8 +14,9 @@
 	<script src="./js/bootstrap.min.js"></script>
 	<script src="./js/blocs.min.js"></script><link rel='stylesheet' href='./css/font-awesome.min.css'/><link rel='stylesheet' href='./css/ionicons.min.css'/><link rel='stylesheet' href='./css/et-line.min.css'/><link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-    
-    <title>About - ILT</title>
+    <script src='./js/jqBootstrapValidation.js'></script>
+	<script src='./js/formHandler.js'></script>
+    <title>Contact Us - ILT</title>
 </head>
 <body>
 <!-- Main container -->
@@ -54,54 +55,51 @@
 			</div>
 		</div>
 	</div>
-</div><!-- Navigation Bloc END --><!-- bloc-6 --><div class="bloc b-parallax bg-map-overlay bgc-purple-heart d-bloc" id="bloc-6">
+</div><!-- Navigation Bloc END --><!-- bloc-19 --><div class="bloc bg-map-overlay bgc-outer-space d-bloc b-parallax tc-white" id="bloc-19">
 	<div class="container bloc-lg">
 		<div class="row">
-			<div class="col-sm-8">
-				<img src="img/matt01.jpg" width="716" class="img-responsive center-block mg-sm fadeInLeft animated" />
-			</div>
-			<div class="col-sm-4">
-				<h3 class="mg-md text-center  tc-turquoise fadeInRight animated">
-					Learn Without Bounds
-				</h3>
-				<p class=" fadeInRight animDelay02 animated">
-					Infinite Limits L.L.C. is a mobile, effective tutoring service for students of all ages. Infinite Limits tutors focus on assisting students with math, chemistry, physics, english, reading and writing, and biology from K-12 through University level. Infinite Limits tutors strive to provide convenient, affordable, quality tutoring while building a strong friendship between each student and instructor.
-				</p>
-				<h3 class="mg-md text-center  tc-turquoise fadeInRight animDelay04 animated">
-					Be Part of Our Community
-				</h3>
-				<p class=" fadeInRight animDelay06 animated">
-					Our tutors are all residents of Onslow County and the surrounding areas. We believe in giving back to the community by helping prepare students for lifelong success through academic assistance. We are currently seeking additional tutors who are interested in part-time work helping others achieve their educational goals. Please don&rsquo;t hesitate to contact us if you are interested!
-				</p>
-			</div>
-		</div>
-	</div>
-</div><!-- bloc-6 END --><!-- bloc-7 --><div class="bloc bgc-white bg-map d-bloc b-parallax" id="bloc-7">
-	<div class="container bloc-lg">
-		<div class="row">
-			<div class="col-sm-12">
-				<h1 class="mg-md text-center">
-					Located in East NC
-				</h1>
-				<iframe width="100%" height="300" frameborder="0" style="border:0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1947802.1630507677!2d-78.04853505595297!3d35.593153642564616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88541fc4fc381a81%253A0xad3f30f5e922ae19!2sNorth+Carolina!5e0!3m2!1sen!2sus!4v1463357801711">
-				</iframe>
-			</div>
-		</div>
-	</div>
-</div><!-- bloc-7 END --><!-- bloc-8 --><div class="bloc bg-map-overlay b-parallax bgc-outer-space d-bloc" id="bloc-8">
-	<div class="container bloc-md">
-		<div class="row">
-			<div class="col-sm-12">
-				<h1 class="mg-md  text-center fadeInUp animated">
-					Billings
-				</h1>
-				<p class=" fadeInUp animDelay02 animated">
-					At Infinite Limits, we strive to make tutoring as affordable as possible for every student. We&rsquo;re able to accomplish this because our bottom line is the success of every person we work with. We&rsquo;re not driven by profit, but by a fundamental desire to make a positive, lasting impact on students. Our tutors are each equipped with a Debit/Credit card reader for taking session payments. Trips to the ATM and the associated fees are a thing of the past at Infinite Limits. You&rsquo;ll always know beforehand how much a session costs, and you&rsquo;ll be able to pay at a time that is convenient for you. Your success is our priority. -Matt McCall Founder, Infinite Limits L.L.C.
-				</p>
+			<div class="col-xs-12 col-md-8 col-md-offset-2">
+				<div class="row">
+					<div class="col-sm-6">
+						<h3 class="mg-md tc-turquoise ">
+							Please email or call with any questions you have, we will gladly help you get the ball rolling!
+						</h3>
+						<p>
+							<strong>+1 (252) 764-7161</strong>
+						</p>
+						<p>
+							<strong>Accounts@infinitelimitstutoring.com</strong><a href="index.html"></a>
+						</p><a href="http://infinitelimits.setmore.com" class="btn   btn-lg btn-rd btn-purple-heart" target="_blank"><span class="fa fa-calendar-o icon-spacer pull-right"></span>Schedule Now!</a>
+					</div>
+					<div class="col-sm-6">
+						<form id="form_1" novalidate>
+							<div class="form-group">
+								<label>
+									Name
+								</label>
+								<input id="name" class="form-control" required />
+							</div>
+							<div class="form-group">
+								<label>
+									Email
+								</label>
+								<input id="email" class="form-control" type="email" required />
+							</div>
+							<div class="form-group">
+								<label>
+									Message
+								</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+							</div> 
+							<button class="bloc-button btn btn-lg btn-block btn-rd btn-purple-heart" type="submit">
+								<span class="ion ion-android-send icon-spacer"></span>Submit
+							</button>
+						</form>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
-</div><!-- bloc-8 END --><!-- ScrollToTop Button --><a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a><!-- ScrollToTop Button END--><!-- Footer - bloc-20 --><div class="bloc b-parallax bgc-white-2 bg-map-overlay d-bloc" id="bloc-20">
+</div><!-- bloc-19 END --><!-- ScrollToTop Button --><a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a><!-- ScrollToTop Button END--><!-- Footer - bloc-20 --><div class="bloc b-parallax bgc-white-2 bg-map-overlay d-bloc" id="bloc-20">
 	<div class="container bloc-md">
 		<div class="row">
 			<div class="col-sm-12 col-md-6 col-md-offset-3">
